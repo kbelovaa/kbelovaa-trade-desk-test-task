@@ -1,0 +1,50 @@
+.performance {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+
+  &_S {
+    top: 164px;
+    right: 199px;
+  }
+
+  &_T {
+    top: 52px;
+    right: 104px;
+  }
+
+  &__chart {
+    position: absolute;
+    top: -88px;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 83px;
+    left: 65px;
+
+    &_text {
+      font-family: Inter, sans-serif;
+      font-weight: 200;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 95%;
+      width: 86px;
+      text-align: center;
+      letter-spacing: -0.44px;
+    }
+
+    &_number {
+      font-family:
+        Playfair Display,
+        serif;
+      font-size: 24px;
+      line-height: normal;
+      margin-top: 7px;
+    }
+  }
+}

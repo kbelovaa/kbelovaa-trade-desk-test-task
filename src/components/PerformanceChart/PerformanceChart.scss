@@ -1,0 +1,18 @@
+.performance-circles {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  &__difference {
+    font-family:
+      Playfair Display,
+      serif;
+    font-size: 18px;
+    line-height: normal;
+    color: #2a4450;
+    position: absolute;
+    top: 204px;
+    right: 238px;
+    width: 50px;
+  }
+}

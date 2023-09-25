@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-extraLight.woff') format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-regular.woff') format('woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('../fonts/playfairDisplay-bold.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+}
